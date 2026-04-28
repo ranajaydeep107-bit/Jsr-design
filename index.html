@@ -1,69 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jaydeep Design Studio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Jaydeep Engineering Studio</title>
+
 <link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
+<!-- LOADER -->
+<div id="loader">
+<h1>JAYDEEP ENGINEERING STUDIO</h1>
+</div>
+
+<!-- PARTICLE BACKGROUND -->
+<canvas id="particles"></canvas>
+
 <header>
-<h1>JAYDEEP DESIGN STUDIO</h1>
+<div class="logo">JES</div>
 <nav>
-<a href="#about">About</a>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
 <a href="#projects">Projects</a>
-<a href="#ar">AR Models</a>
+<a href="#ar">AR Studio</a>
 <a href="#contact">Contact</a>
 </nav>
 </header>
 
-<section class="hero">
-<h2>Architecture • 3D Design • AR Visualization</h2>
-<p>Professional architectural visualization and interactive AR experiences.</p>
+<!-- HERO -->
+<section id="home" class="hero">
+<h1>Designing The Future</h1>
+<p>Mechanical • Industrial • Product • AR Engineering</p>
+<a href="#projects" class="btn">View Portfolio</a>
 </section>
 
-<section id="about">
-<h2>About Me</h2>
-<p>
-I am a 3D designer specializing in SolidWorks modeling,
-architecture visualization and augmented reality presentations.
-</p>
+<!-- SERVICES -->
+<section id="services">
+<h2>Studio Capabilities</h2>
+
+<div class="grid">
+
+<div class="glass">Mechanical Design</div>
+<div class="glass">Product Engineering</div>
+<div class="glass">Industrial Concepts</div>
+<div class="glass">AR Visualization</div>
+
+</div>
 </section>
 
+<!-- PROJECTS -->
 <section id="projects">
-<h2>Projects</h2>
+<h2>Featured Projects</h2>
 
-<div class="card">
-<h3>Modern Villa</h3>
-<p>3D architectural concept design.</p>
-</div>
-
-<div class="card">
-<h3>Industrial Machine</h3>
-<p>SolidWorks mechanical design project.</p>
+<div class="projects">
+<div class="project">Machine Assembly</div>
+<div class="project">Automation System</div>
+<div class="project">Concept Prototype</div>
+<div class="project">AR Building Model</div>
 </div>
 
 </section>
 
+<!-- AR SECTION -->
 <section id="ar">
-<h2>AR Experience</h2>
-<p>Scan QR code to view building in Augmented Reality.</p>
-
+<h2>Interactive AR Studio</h2>
+<p>Scan QR to view real scale models.</p>
 <img src="qr.png" width="200">
 </section>
 
+<!-- CONTACT -->
 <section id="contact">
-<h2>Contact</h2>
+<h2>Work With Me</h2>
 <p>Email: yourmail@gmail.com</p>
-<p>Instagram: @yourstudio</p>
 </section>
 
 <footer>
-<p>© 2026 Jaydeep Design Studio</p>
+<p>© 2026 Jaydeep Engineering Studio</p>
 </footer>
 
 <script src="script.js"></script>
+
 </body>
 </html>
